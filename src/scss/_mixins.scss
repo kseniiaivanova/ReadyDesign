@@ -1,0 +1,42 @@
+@mixin wrapper {
+display: flex;  
+flex-direction: column;
+width: 100%;
+height: 100vh;
+background-image: url("/assets/negative-space-black-forest-dawn.jpg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+
+@mixin nature($color) {
+display: flex;    
+justify-content: center; 
+align-items: center; 
+flex-direction: column;
+color: $color; 
+
+flex-wrap: nowrap;
+text-align: center;
+padding: 3em 2em;
+}
+
+@mixin arrow-down($color) {
+
+color: $color;
+    
+}
+
+@mixin sec {
+font-size: 1em;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+@mixin box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
